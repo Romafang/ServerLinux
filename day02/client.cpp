@@ -1,6 +1,8 @@
-#include<sys/socket.h>
-#include<arpa/inet.h>
-#include<string.h>
+#include <stdio.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <string.h>
+#include <unistd.h>
 #include<iostream>
 #include"utils.h"
 int main()
@@ -25,18 +27,16 @@ int main()
 		size_t read_size = read(sockfd, buf, sizeof(buf));
 		if (read_size > 0)
 		{
-			std::cout << "message from client fd " << client_sockfd << " : " << buf << std::endl;
-			write(client_sockfd, buf, sizeof(buf));
+			std::cout << "message from client fd "  << " : " << buf << std::endl;
 		}
 		else if (read_size == 0)
 		{
-			std::cout << client_sockfd << "客户端没有连接" << std::endl;
-			close(client_sockfd);
+			std::cout  << "客户端没有连接" << std::endl;
+			
 			break;
 		}
 		else if (read_size == -1)
 		{
-			close(client_sockfd);
 			errif(true, "读取失败");
 		}
 	}

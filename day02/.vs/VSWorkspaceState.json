@@ -9,8 +9,6 @@
       "out\\install\\Linux-GCC-Debug"
     ],
     "120.55.240.85": [
-      "out\\build\\x64-Debug",
-      "out\\install\\x64-Debug",
       "out\\build\\Linux-GCC-Debug",
       "out\\install\\Linux-GCC-Debug"
     ]
@@ -18,5 +16,6 @@
   "ExpandedNodes": [
     ""
   ],
+  "SelectedNode": "\\server.cpp",
   "PreviewInSolutionExplorer": false
 }

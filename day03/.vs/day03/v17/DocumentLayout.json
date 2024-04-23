@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ServerLinux\\day03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|D:\\ServerLinux\\day03\\server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|solutionrelative:server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|D:\\ServerLinux\\day03\\client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|solutionrelative:client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|D:\\ServerLinux\\day03\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|solutionrelative:util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|D:\\ServerLinux\\day03\\Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|solutionrelative:Makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|D:\\ServerLinux\\day03\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9D11B8D-BB07-49BE-AB09-75F0F233A01A}|day03.vcxproj|solutionrelative:util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "server.cpp",
+              "DocumentMoniker": "D:\\ServerLinux\\day03\\server.cpp",
+              "RelativeDocumentMoniker": "server.cpp",
+              "ToolTip": "D:\\ServerLinux\\day03\\server.cpp",
+              "RelativeToolTip": "server.cpp",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAE4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T10:07:01.528Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "client.cpp",
+              "DocumentMoniker": "D:\\ServerLinux\\day03\\client.cpp",
+              "RelativeDocumentMoniker": "client.cpp",
+              "ToolTip": "D:\\ServerLinux\\day03\\client.cpp",
+              "RelativeToolTip": "client.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T14:27:22.903Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Makefile",
+              "DocumentMoniker": "D:\\ServerLinux\\day03\\Makefile",
+              "RelativeDocumentMoniker": "Makefile",
+              "ToolTip": "D:\\ServerLinux\\day03\\Makefile",
+              "RelativeToolTip": "Makefile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-22T14:40:14.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "util.cpp",
+              "DocumentMoniker": "D:\\ServerLinux\\day03\\util.cpp",
+              "RelativeDocumentMoniker": "util.cpp",
+              "ToolTip": "D:\\ServerLinux\\day03\\util.cpp",
+              "RelativeToolTip": "util.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T10:04:32.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "util.h",
+              "DocumentMoniker": "D:\\ServerLinux\\day03\\util.h",
+              "RelativeDocumentMoniker": "util.h",
+              "ToolTip": "D:\\ServerLinux\\day03\\util.h",
+              "RelativeToolTip": "util.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-22T10:04:22.292Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

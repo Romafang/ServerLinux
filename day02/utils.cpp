@@ -4,3 +4,4 @@ void errif(bool condition, const char* errmsg) {
         perror(errmsg);
         exit(EXIT_FAILURE);
     }
+}
