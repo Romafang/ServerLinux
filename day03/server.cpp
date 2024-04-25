@@ -16,7 +16,7 @@ void setnonblocking(int fd)
 }
 int main() {
 	int sockfd = socket(AF_INET, SOCK_STREAM, 0);
-	errif(sockfd == -1, "socket´´½¨Ê§°Ü");
+	errif(sockfd == -1, "socketåˆ›å»ºå¤±è´¥");
 
 	struct sockaddr_in serveraddr;
 	bzero(&serveraddr, sizeof(serveraddr));
@@ -24,12 +24,12 @@ int main() {
 	serveraddr.sin_addr.s_addr = inet_addr("127.0.0.1");
 	serveraddr.sin_port = htons(8888);
 
-	errif(bind(sockfd, (sockaddr*)&serveraddr, sizeof(serveraddr)) == -1, "socket°ó¶¨Ê§°Ü");
+	errif(bind(sockfd, (sockaddr*)&serveraddr, sizeof(serveraddr)) == -1, "socketç»‘å®šå¤±è´¥");
 
-	errif(listen(sockfd, SOMAXCONN) == -1, "socket¼àÌıÊ§°Ü");
+	errif(listen(sockfd, SOMAXCONN) == -1, "socketç›‘å¬å¤±è´¥");
 
 	int epfd = epoll_create1(0);
-	errif(epfd == -1, "epoll´´½¨Ê§°Ü");
+	errif(epfd == -1, "epollåˆ›å»ºå¤±è´¥");
 
 	struct epoll_event events[MAX_EVENTS], ev;
 	bzero(&events, sizeof(events));
@@ -77,17 +77,17 @@ int main() {
 						write(events[i].data.fd, buffer, sizeof(buffer));
 					}else if (bytes_read == -1 && errno ==EINTR)
 					{
-						std::cout << "³ÖĞø¶ÁÈ¡ÖĞ" << std::endl;
+						std::cout << "æŒç»­è¯»å–ä¸­" << std::endl;
 						continue;
 					}
 					else if (bytes_read == -1 && ((errno == EAGAIN) || (errno == EWOULDBLOCK)))
 					{
-						std::cout << "ÒÑ¾­Íê³É¶ÁÈ¡Ò»´Î errno: " << errno << std::endl;
+						std::cout << "å·²ç»å®Œæˆè¯»å–ä¸€æ¬¡ errno: " << errno << std::endl;
 						break;
 					}
 					else if (bytes_read == 0)
 					{
-						std::cout << "EOF ¿Í»§¶Ë :" << events[i].data.fd << "ÒÑ¾­¶Ï¿ªÁ¬½Ó" << std::endl;
+						std::cout << "EOF å®¢æˆ·ç«¯ :" << events[i].data.fd << "å·²ç»æ–­å¼€è¿æ¥" << std::endl;
 						close(events[i].data.fd);
 						break;
 					}
@@ -95,7 +95,7 @@ int main() {
 			}
 			else
 			{
-				std::cout << "ÆäËûÊÂ¼ş·¢Éú" << std::endl;
+				std::cout << "å…¶ä»–äº‹ä»¶å‘ç”Ÿ" << std::endl;
 			}
 		}
 	}

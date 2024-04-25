@@ -8,7 +8,7 @@
 int main()
 {
 	int sockfd = socket(AF_INET, SOCK_STREAM, 0);
-	errif(sockfd == -1, "socket´´½¨Ê§°Ü");
+	errif(sockfd == -1, "socketåˆ›å»ºå¤±è´¥");
 	
 	struct sockaddr_in serveraddr;
 	bzero(&serveraddr, sizeof(serveraddr));
@@ -16,7 +16,7 @@ int main()
 	serveraddr.sin_addr.s_addr = inet_addr("127.0.0.1");
 	serveraddr.sin_port = htons(8888);
 	
-	errif(connect(sockfd, (sockaddr*)&serveraddr, sizeof(serveraddr)) == -1, "socketÁ¬½ÓÊ§°Ü");
+	errif(connect(sockfd, (sockaddr*)&serveraddr, sizeof(serveraddr)) == -1, "socketè¿žæŽ¥å¤±è´¥");
 	while (true)
 	{
 		char buffer[BUFFER_SIZE];
@@ -25,18 +25,18 @@ int main()
 		ssize_t write_bytes = write(sockfd, buffer, sizeof(buffer));
 		if (write_bytes == -1)
 		{
-			std::cout << "socketÒÑ¾­¶Ï¿ªÁ¬½Ó£¬²»¿ÉÒÔ¼ÌÐøÐ´Èë" << std::endl;
+			std::cout << "socketå·²ç»æ–­å¼€è¿žæŽ¥ï¼Œä¸å¯ä»¥ç»§ç»­å†™å…¥" << std::endl;
 			break;
 		}
 		bzero(&buffer, sizeof(buffer));
 		ssize_t read_bytes = read(sockfd, buffer, sizeof(buffer));
 		if (read_bytes > 0)
 		{
-			std::cout << "´Ó·þÎñ¶Ë´«À´µÄÐÅÏ¢:" << buffer << std::endl;
+			std::cout << "ä»ŽæœåŠ¡ç«¯ä¼ æ¥çš„ä¿¡æ¯:" << buffer << std::endl;
 		}
 		else if (read_bytes == 0)
 		{
-			std::cout << "·þÎñ¶ËÒÑ¾­¶Ï¿ªÁ¬½Ó" << std::endl;
+			std::cout << "æœåŠ¡ç«¯å·²ç»æ–­å¼€è¿žæŽ¥" << std::endl;
 			break;
 		}
 		else if (read_bytes == -1)
