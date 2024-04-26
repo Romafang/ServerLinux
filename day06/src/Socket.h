@@ -1,12 +1,15 @@
 #pragma once
+
 class InetAddress;
 class Socket
 {
 private:
     int fd;
 public:
-    Socket(/* args */);
-    Socket(int );
+    Socket();
+    Socket(int);
+    ~Socket();
+
     void bind(InetAddress*);
     void listen();
     void setnonblocking();
@@ -14,5 +17,4 @@ public:
     int accept(InetAddress*);
 
     int getFd();
-    ~Socket();
 };
