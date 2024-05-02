@@ -29,6 +29,7 @@ ThreadPool::~ThreadPool()
 {
     {std::unique_lock<std::mutex>lock(task_mx);
     stop=true;}
+    cv.notify_all();
     for(std::thread &th:threads)
     {   
         if(th.joinable())
