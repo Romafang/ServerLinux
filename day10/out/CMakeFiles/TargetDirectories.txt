@@ -1,0 +1,5 @@
+/home/ecs-user/projects/ServerLinux/day10/out/CMakeFiles/rebuild_cache.dir
+/home/ecs-user/projects/ServerLinux/day10/out/CMakeFiles/edit_cache.dir
+/home/ecs-user/projects/ServerLinux/day10/out/CMakeFiles/ThreadPoolTest.dir
+/home/ecs-user/projects/ServerLinux/day10/out/CMakeFiles/client.dir
+/home/ecs-user/projects/ServerLinux/day10/out/CMakeFiles/server.dir

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ecs-user/projects/ServerLinux/day10/ThreadPoolTest.cpp
+iostream
+-
+string
+-
+src/ThreadPool.h
+/home/ecs-user/projects/ServerLinux/day10/src/ThreadPool.h
+
+/home/ecs-user/projects/ServerLinux/day10/src/ThreadPool.cpp
+ThreadPool.h
+/home/ecs-user/projects/ServerLinux/day10/src/ThreadPool.h
+
+/home/ecs-user/projects/ServerLinux/day10/src/ThreadPool.h
+functional
+-
+vector
+-
+queue
+-
+unistd.h
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
