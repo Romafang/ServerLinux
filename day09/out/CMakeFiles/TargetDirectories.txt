@@ -1,0 +1,4 @@
+/home/ecs-user/projects/ServerLinux/day09/out/CMakeFiles/rebuild_cache.dir
+/home/ecs-user/projects/ServerLinux/day09/out/CMakeFiles/edit_cache.dir
+/home/ecs-user/projects/ServerLinux/day09/out/CMakeFiles/client.dir
+/home/ecs-user/projects/ServerLinux/day09/out/CMakeFiles/server.dir
