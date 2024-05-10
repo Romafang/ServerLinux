@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fang/ServerLinux/day12/src/Socket.cpp
+Socket.h
+/home/fang/ServerLinux/day12/src/Socket.h
+util.h
+/home/fang/ServerLinux/day12/src/util.h
+unistd.h
+-
+fcntl.h
+-
+sys/socket.h
+-
+string.h
+-
+errno.h
+-
+stdio.h
+-
+iostream
+-
+
+/home/fang/ServerLinux/day12/src/Socket.h
+arpa/inet.h
+-
+
+/home/fang/ServerLinux/day12/src/util.h
+

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fang/ServerLinux/day12/src/Channel.h
+functional
+-
+
+/home/fang/ServerLinux/day12/src/Epoll.h
+sys/epoll.h
+-
+vector
+-
+
+/home/fang/ServerLinux/day12/src/EventLoop.cpp
+EventLoop.h
+/home/fang/ServerLinux/day12/src/EventLoop.h
+Epoll.h
+/home/fang/ServerLinux/day12/src/Epoll.h
+Channel.h
+/home/fang/ServerLinux/day12/src/Channel.h
+vector
+-
+
+/home/fang/ServerLinux/day12/src/EventLoop.h
+functional
+-
+
