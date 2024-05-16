@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Acceptor.cpp.o -c /home/fang/ServerLinux/day13/src/Acceptor.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Acceptor.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Buffer.cpp.o -c /home/fang/ServerLinux/day13/src/Buffer.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Buffer.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Channel.cpp.o -c /home/fang/ServerLinux/day13/src/Channel.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Channel.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Connection.cpp.o -c /home/fang/ServerLinux/day13/src/Connection.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Connection.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Epoll.cpp.o -c /home/fang/ServerLinux/day13/src/Epoll.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Epoll.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/EventLoop.cpp.o -c /home/fang/ServerLinux/day13/src/EventLoop.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/EventLoop.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Server.cpp.o -c /home/fang/ServerLinux/day13/src/Server.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Server.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/Socket.cpp.o -c /home/fang/ServerLinux/day13/src/Socket.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/Socket.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/ThreadPool.cpp.o -c /home/fang/ServerLinux/day13/src/ThreadPool.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/ThreadPool.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/src",
+  "command": "/usr/bin/c++  -Dday13_shared_EXPORTS -I/home/fang/ServerLinux/day13/src/include  -fPIC   -std=gnu++17 -o CMakeFiles/day13_shared.dir/util.cpp.o -c /home/fang/ServerLinux/day13/src/util.cpp",
+  "file": "/home/fang/ServerLinux/day13/src/util.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/test",
+  "command": "/usr/bin/c++   -I/home/fang/ServerLinux/day13/src/include    -std=gnu++17 -o CMakeFiles/thread_test.dir/thread_test.cpp.o -c /home/fang/ServerLinux/day13/test/thread_test.cpp",
+  "file": "/home/fang/ServerLinux/day13/test/thread_test.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/test",
+  "command": "/usr/bin/c++   -I/home/fang/ServerLinux/day13/src/include    -std=gnu++17 -o CMakeFiles/single_client.dir/single_client.cpp.o -c /home/fang/ServerLinux/day13/test/single_client.cpp",
+  "file": "/home/fang/ServerLinux/day13/test/single_client.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/test",
+  "command": "/usr/bin/c++   -I/home/fang/ServerLinux/day13/src/include    -std=gnu++17 -o CMakeFiles/multiple_client.dir/multiple_client.cpp.o -c /home/fang/ServerLinux/day13/test/multiple_client.cpp",
+  "file": "/home/fang/ServerLinux/day13/test/multiple_client.cpp"
+},
+{
+  "directory": "/home/fang/ServerLinux/day13/test",
+  "command": "/usr/bin/c++   -I/home/fang/ServerLinux/day13/src/include    -std=gnu++17 -o CMakeFiles/server.dir/server.cpp.o -c /home/fang/ServerLinux/day13/test/server.cpp",
+  "file": "/home/fang/ServerLinux/day13/test/server.cpp"
+}
+]

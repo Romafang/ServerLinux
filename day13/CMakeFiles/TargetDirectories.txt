@@ -1,0 +1,13 @@
+/home/fang/ServerLinux/day13/CMakeFiles/rebuild_cache.dir
+/home/fang/ServerLinux/day13/CMakeFiles/edit_cache.dir
+/home/fang/ServerLinux/day13/src/CMakeFiles/rebuild_cache.dir
+/home/fang/ServerLinux/day13/src/CMakeFiles/edit_cache.dir
+/home/fang/ServerLinux/day13/src/CMakeFiles/day13_shared.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/rebuild_cache.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/edit_cache.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/thread_test.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/single_client.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/multiple_client.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/check-tests.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/server.dir
+/home/fang/ServerLinux/day13/test/CMakeFiles/build-tests.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fang/ServerLinux/day13/test/single_client.cpp
+iostream
+-
+unistd.h
+-
+string.h
+-
+util.h
+/home/fang/ServerLinux/day13/test/util.h
+Buffer.h
+/home/fang/ServerLinux/day13/test/Buffer.h
+Socket.h
+/home/fang/ServerLinux/day13/test/Socket.h
+
+src/include/Buffer.h
+string
+-
+
+src/include/Socket.h
+arpa/inet.h
+-
+
+src/include/util.h
+

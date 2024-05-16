@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/server.dir/server.cpp.o  -o ../bin/server  -Wl,-rpath,/home/fang/ServerLinux/day13/src ../src/libday13_shared.so 

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/thread_test.dir/thread_test.cpp.o  -o ../bin/thread_test  -Wl,-rpath,/home/fang/ServerLinux/day13/src ../src/libday13_shared.so 

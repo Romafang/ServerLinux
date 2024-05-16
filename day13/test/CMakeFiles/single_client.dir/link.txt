@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/single_client.dir/single_client.cpp.o  -o ../bin/single_client  -Wl,-rpath,/home/fang/ServerLinux/day13/src ../src/libday13_shared.so 
