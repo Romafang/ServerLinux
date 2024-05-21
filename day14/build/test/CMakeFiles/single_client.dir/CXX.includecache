@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/Connection.h
+Macros.h
+../src/include/Macros.h
+functional
+-
+
+../src/include/Macros.h
+cassert
+-
+stdexcept
+-
+
+../src/include/Socket.h
+arpa/inet.h
+-
+Macros.h
+../src/include/Macros.h
+
+/home/fang/ServerLinux/day14/test/single_client.cpp
+Connection.h
+-
+Socket.h
+-
+iostream
+-
+

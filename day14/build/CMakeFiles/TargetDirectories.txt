@@ -1,0 +1,17 @@
+/home/fang/ServerLinux/day14/build/CMakeFiles/rebuild_cache.dir
+/home/fang/ServerLinux/day14/build/CMakeFiles/edit_cache.dir
+/home/fang/ServerLinux/day14/build/CMakeFiles/clang-tidy.dir
+/home/fang/ServerLinux/day14/build/CMakeFiles/cpplint.dir
+/home/fang/ServerLinux/day14/build/CMakeFiles/check-format.dir
+/home/fang/ServerLinux/day14/build/CMakeFiles/format.dir
+/home/fang/ServerLinux/day14/build/src/CMakeFiles/rebuild_cache.dir
+/home/fang/ServerLinux/day14/build/src/CMakeFiles/edit_cache.dir
+/home/fang/ServerLinux/day14/build/src/CMakeFiles/day14_shared.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/rebuild_cache.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/edit_cache.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/thread_test.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/single_client.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/multiple_client.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/check-tests.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/server.dir
+/home/fang/ServerLinux/day14/build/test/CMakeFiles/build-tests.dir
